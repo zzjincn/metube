@@ -1,0 +1,48 @@
+Microsoft Windows [版本 10.0.19044.1620]
+(c) Microsoft Corporation。保留所有权利。
+
+E:\pjcode\metube\metube\bin\Debug\net6.0-windows>yt-dlp -F https://youtu.be/g8DnKe04jjQ&exit
+[youtube] g8DnKe04jjQ: Downloading webpage
+[youtube] g8DnKe04jjQ: Downloading android player API JSON
+[info] Available formats for g8DnKe04jjQ:
+ID  EXT   RESOLUTION FPS |   FILESIZE    TBR PROTO | VCODEC           VBR ACODEC      ABR     ASR MORE INFO
+--------------------------------------------------------------------------------------------------------------------
+sb2 mhtml 48x27          |                   mhtml | images                                       storyboard
+sb1 mhtml 80x45          |                   mhtml | images                                       storyboard
+sb0 mhtml 160x90         |                   mhtml | images                                       storyboard
+139 m4a   audio only     |    1.10MiB    48k https | audio only           mp4a.40.5   48k 22050Hz low, m4a_dash
+249 webm  audio only     |    1.09MiB    48k https | audio only           opus        48k 48000Hz low, webm_dash
+250 webm  audio only     |    1.45MiB    64k https | audio only           opus        64k 48000Hz low, webm_dash
+140 m4a   audio only     |    2.93MiB   129k https | audio only           mp4a.40.2  129k 44100Hz medium, m4a_dash
+251 webm  audio only     |    2.90MiB   128k https | audio only           opus       128k 48000Hz medium, webm_dash
+17  3gp   176x144      8 |    1.69MiB    74k https | mp4v.20.3        74k mp4a.40.2    0k 22050Hz 144p
+394 mp4   256x144     30 |    1.60MiB    70k https | av01.0.00M.08    70k video only              144p, mp4_dash
+160 mp4   256x144     30 |    2.45MiB   108k https | avc1.4d400c     108k video only              144p, mp4_dash
+278 webm  256x144     30 |    2.10MiB    92k https | vp9              92k video only              144p, webm_dash
+395 mp4   426x240     30 |    3.49MiB   154k https | av01.0.00M.08   154k video only              240p, mp4_dash
+133 mp4   426x240     30 |    5.39MiB   238k https | avc1.4d4015     238k video only              240p, mp4_dash
+242 webm  426x240     30 |    4.68MiB   207k https | vp9             207k video only              240p, webm_dash
+396 mp4   640x360     30 |    7.55MiB   333k https | av01.0.01M.08   333k video only              360p, mp4_dash
+134 mp4   640x360     30 |   13.11MiB   579k https | avc1.4d401e     579k video only              360p, mp4_dash
+18  mp4   640x360     30 |   16.50MiB   729k https | avc1.42001E     729k mp4a.40.2    0k 44100Hz 360p
+243 webm  640x360     30 |   10.18MiB   450k https | vp9             450k video only              360p, webm_dash
+397 mp4   854x480     30 |   13.87MiB   613k https | av01.0.04M.08   613k video only              480p, mp4_dash
+135 mp4   854x480     30 |   21.63MiB   956k https | avc1.4d401f     956k video only              480p, mp4_dash
+244 webm  854x480     30 |   20.14MiB   890k https | vp9             890k video only              480p, webm_dash
+136 mp4   1280x720    30 |   50.99MiB  2255k https | avc1.4d401f    2255k video only              720p, mp4_dash
+22  mp4   1280x720    30 | ~ 55.30MiB  2384k https | avc1.64001F    2384k mp4a.40.2    0k 44100Hz 720p
+247 webm  1280x720    30 |   39.85MiB  1762k https | vp9            1762k video only              720p, webm_dash
+398 mp4   1280x720    60 |   40.69MiB  1799k https | av01.0.08M.08  1799k video only              720p60, mp4_dash
+298 mp4   1280x720    60 |   76.91MiB  3401k https | avc1.4d4020    3401k video only              720p60, mp4_dash
+302 webm  1280x720    60 |   58.80MiB  2600k https | vp9            2600k video only              720p60, webm_dash
+399 mp4   1920x1080   60 |   76.62MiB  3388k https | av01.0.09M.08  3388k video only              1080p60, mp4_dash
+299 mp4   1920x1080   60 |  128.41MiB  5678k https | avc1.64002a    5678k video only              1080p60, mp4_dash
+303 webm  1920x1080   60 |   98.72MiB  4365k https | vp9            4365k video only              1080p60, webm_dash
+400 mp4   2560x1440   60 |  168.21MiB  7438k https | av01.0.12M.08  7438k video only              1440p60, mp4_dash
+308 webm  2560x1440   60 |  296.06MiB 13092k https | vp9           13092k video only              1440p60, webm_dash
+401 mp4   3840x2160   60 |  337.90MiB 14943k https | av01.0.13M.08 14943k video only              2160p60, mp4_dash
+315 webm  3840x2160   60 |  596.76MiB 26390k https | vp9           26390k video only              2160p60, webm_dash
+
+
+
+-------------------------------------------------------

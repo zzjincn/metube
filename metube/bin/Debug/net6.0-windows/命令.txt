@@ -1,0 +1,23 @@
+
+下载最优视频
+yt-dlp https://www.youtube.com/watch?v=9NNiHZ8Yjzg
+
+
+查看可选的视、音频格式
+yt-dlp -F "https://youtu.be/g8DnKe04jjQ"
+
+
+# 组合下载
+yt-dlp -f 136+140 https://www.youtube.com/watch?v=9NNiHZ8Yjzg
+ 
+# 单独下载
+yt-dlp -f 137 "https://youtu.be/g8DnKe04jjQ"
+
+yt-dlp -f 401 "https://youtu.be/g8DnKe04jjQ"
+
+# 下载字幕，并按顺序选择 ass/srt/best 字幕，把字幕转成 srt 格式
+youtube-dl --write-sub --sub-format "ass/srt/best" --convert-subs "srt" "video_url"
+
+—write-sub：写入字幕，即把字幕下载。
+--sub-format：指定字幕格式，按顺序选，不存在则选下一个。
+--convert-subs： 转换字幕，格式有限制，通用为 srt ；若不转，某些字幕可能是 .vtt 的；如果有 ass 字幕可下载，则无须加此项。
